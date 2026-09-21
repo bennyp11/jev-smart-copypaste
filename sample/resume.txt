@@ -1,0 +1,31 @@
+Maya Okafor
+Brooklyn, NY | (917) 555-0143 | maya.okafor@gmail.com
+linkedin.com/in/mayaokafor | github.com/mokafor
+
+SUMMARY
+Product-minded software engineer with 7 years building data-heavy web apps. I like owning problems end to end, from schema design to the pixel, and I've led two migrations off legacy stacks without downtime.
+
+EXPERIENCE
+Senior Software Engineer — Northwind Analytics, New York, NY
+Mar 2022 – Present
+- Lead a team of 4 on the reporting platform used by 1,200 enterprise customers
+- Cut p95 dashboard load time from 4.1s to 900ms by moving aggregation into Postgres materialized views
+- Designed the event ingestion pipeline (Kafka → Flink → ClickHouse) handling 2B events/day
+
+Software Engineer — Brightline Health, Boston, MA
+Jun 2019 – Feb 2022
+- Built the patient scheduling service (Node, TypeScript, PostgreSQL)
+- Introduced contract testing across 11 services; reduced integration incidents by 60%
+
+Junior Developer — Pixel & Pine Agency, Boston, MA
+Aug 2017 – May 2019
+- Shipped marketing sites and e-commerce storefronts for 20+ clients (React, Shopify)
+
+SKILLS
+TypeScript, React, Node.js, PostgreSQL, ClickHouse, Kafka, Flink, Python, AWS, Terraform, Docker
+
+EDUCATION
+B.S. Computer Science — Northeastern University, Boston, MA, 2017
+
+CERTIFICATIONS
+AWS Certified Solutions Architect – Associate (2023)

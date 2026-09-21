@@ -1,0 +1,16 @@
+{
+  "name": "jev-smart-copypaste",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Smart paste: copy a whole resume, paste into a job application, and Jev routes only the relevant pieces into the right fields.",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js",
+    "test": "node --env-file=.env test/smoke.js"
+  },
+  "engines": { "node": ">=20.6" },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  }
+}

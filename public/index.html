@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Paste</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Smart Paste</h1>
+      <p class="sub">Copy a whole resume. Paste into any field. Jev routes only what fits.</p>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="smart-toggle" checked />
+      <span>Smart paste</span>
+    </label>
+  </header>
+
+  <main class="layout">
+    <section class="panel clipboard">
+      <div class="panel-head">
+        <h2>1 · Your resume</h2>
+        <button id="copy-btn" type="button">Copy all</button>
+      </div>
+      <textarea id="clipboard-src" spellcheck="false"></textarea>
+      <p class="hint">Edit this, or paste your own. Then click <em>Copy all</em> and paste into the form →</p>
+    </section>
+
+    <section class="panel form-panel">
+      <div class="panel-head">
+        <h2>2 · Job application</h2>
+        <button id="clear-btn" type="button" class="ghost">Clear form</button>
+      </div>
+      <form id="application" autocomplete="off"></form>
+      <div id="status" class="status" hidden></div>
+    </section>
+
+    <aside class="panel report">
+      <div class="panel-head">
+        <h2>3 · What Jev did</h2>
+        <span id="meta" class="meta"></span>
+      </div>
+      <div id="report"><p class="empty">Paste into the form to see the routing decisions.</p></div>
+    </aside>
+  </main>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
